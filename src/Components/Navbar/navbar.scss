@@ -1,0 +1,175 @@
+/* Navbar.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: white;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+}
+
+.nav-links-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.nav-links-mobile a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav-links .logo img {
+  height: 40px;
+}
+
+.mobile-menu-icon {
+  display: none;
+  background: none;
+  color: black;
+  font-size: 24px;
+  border: none;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .nav-links {
+    gap: 15px;
+    font-size: 13px;
+  }
+
+  .nav-links .logo img {
+    height: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    position: relative;
+    padding-top: 20px;
+}
+
+  .nav-links {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    padding-top: 40px;
+  }
+
+  .nav-links-mobile {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-links-mobile {
+    font-size: 16px;
+  }
+
+  .nav-links a {
+    padding: 8px 16px;
+  }
+
+  .nav-links .logo img {
+    height: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .nav-links-mobile {
+    font-size: 14px;
+  }
+
+  .nav-links a {
+    padding: 6px 12px;
+  }
+
+  .nav-links .logo img {
+    height: 25px;
+  }
+}
+
+// .nav-links .dropdown-menu {
+//   display: none;
+//   position: absolute;
+//   top: 100%;
+//   right: 252px;
+//   background-color: white;
+//   list-style: none;
+//   padding: 0;
+//   margin: 1px;
+//   width: 210px;
+// }
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 250px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  list-style: none;
+}
+
+.dropdown-item {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #eee;
+}
+/* Navbar.css */
+
+.center-logo {
+  text-align: center;
+  width: 100%;
+}
+
+.navbar-brand img {
+  width: 40px;
+  height: 40px;
+}

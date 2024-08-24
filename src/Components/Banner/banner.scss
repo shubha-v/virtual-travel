@@ -1,0 +1,138 @@
+.banner {
+    position: relative;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    padding-top: 90px;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-top: 0;
+  }
+  
+  .search-bar {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .search-input {
+    border: none;
+    padding: 0;
+    width: 90%;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .search-button:hover {
+    color: white;
+  }
+  
+  @media (max-width: 1024px) {
+    .banner {
+      height: 350px;
+    }
+  
+    .search-bar {
+      width: 90%;
+      max-width: 400px;
+    }
+  
+    .search-input {
+        width: 90%;
+        font-size: 14px;
+        padding: 0;
+    }
+  
+    .search-button {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .banner {
+      height: 300px;
+      padding-top: 10px;
+    }
+  
+    .banner-image{
+        padding-top: 25px;
+    }
+    .search-bar {
+      width: 90%;
+      max-width: 350px;
+    }
+  
+    .search-input {
+      width: 90%;
+      font-size: 14px;
+      padding: 0;
+    }
+  
+    .search-button {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner {
+      height: 250px;
+    }
+  
+    .search-bar {
+      width: 95%;
+      max-width: 300px;
+      padding: 5px;
+    }
+  
+    .search-input {
+      width: 90%;
+      font-size: 12px;
+      padding: 0;
+    }
+  
+    .search-button {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .banner {
+      height: 200px;
+      padding-top: 10px;
+    }
+  
+    .search-bar {
+      width: 100%;
+      max-width: 250px;
+    }
+  
+    .search-input {
+      width: 90%;
+      font-size: 10px;
+      padding: 0;
+    }
+  
+    .search-button {
+      font-size: 14px;
+    }
+  }
+  
