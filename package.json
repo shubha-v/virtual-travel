@@ -1,8 +1,8 @@
 {
-  "homepage": "https://shubha-v.github.io/virtual-travel-tours/",
   "name": "virtual-tour",
+  "homepage": "https://shubha-v.github.io/virtual-travel-tours/",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
@@ -14,7 +14,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
-    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
@@ -54,6 +53,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "webpack": "^5.93.0"
   }
 }
