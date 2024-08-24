@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/virtual-travel/static/css/main.60f495fa.css",
+    "main.js": "/virtual-travel/static/js/main.531cdc35.js",
+    "static/media/goa2.png": "/virtual-travel/static/media/goa2.9b890d43175b444dd9b0.png",
+    "static/media/holidaytheme-2.jpg": "/virtual-travel/static/media/holidaytheme-2.5fb350a2f43670a4f2d2.jpg",
+    "static/media/home-banner1.png": "/virtual-travel/static/media/home-banner1.7462b2f9a41be2ed5d78.png",
+    "static/media/holidaytheme-1.jpg": "/virtual-travel/static/media/holidaytheme-1.151336cbe9b7082a6a08.jpg",
+    "static/media/holidaytheme-3.jpg": "/virtual-travel/static/media/holidaytheme-3.8910f1d0d5ca9c5c8884.jpg",
+    "static/media/logo.png": "/virtual-travel/static/media/logo.3e39d4b8b77bb80469c3.png",
+    "static/media/destination-2.jpg": "/virtual-travel/static/media/destination-2.2ed3207ad91c4c7bfee4.jpg",
+    "static/media/destination-3.jpg": "/virtual-travel/static/media/destination-3.1b1eccfbea73613b8de2.jpg",
+    "index.html": "/virtual-travel/index.html",
+    "main.60f495fa.css.map": "/virtual-travel/static/css/main.60f495fa.css.map",
+    "main.531cdc35.js.map": "/virtual-travel/static/js/main.531cdc35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60f495fa.css",
+    "static/js/main.531cdc35.js"
+  ]
+}
