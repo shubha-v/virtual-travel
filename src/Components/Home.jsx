@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar/Navbar'
 import Banner from './Banner/Banner'
 import Holiday from './holiday/Holiday'
 import Destination from './destination/Destination'
