@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Breadcrumbs, Link, Typography, Tabs, Tab, Box } from '@mui/material';
-import goa from '../../images/goa2.png'
+import goa from '../../videos/goa/baga-beach-goa.mp4'
 import Navbar from '../../Navbar/Navbar'
 import '../Goa/goa.scss';
 import { TbPlaneInflight } from "react-icons/tb";
@@ -23,7 +23,7 @@ const Goa = () => {
         <>
             <Navbar />
             <div className="banner">
-                <img src={goa} alt="Banner" className="banner-image" />
+            <video src={goa} autoPlay loop muted playsInline className="banner-video"></video>
                 <div class="text">Goa</div>
             </div>
             <div>
