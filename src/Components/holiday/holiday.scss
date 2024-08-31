@@ -7,20 +7,22 @@
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
+    font-family: system-ui;
+    padding-top: 20px;
   }
   
-  .cards {
+  .holidaycards {
     display: flex;
-    justify-content: space-evenly; /* Space out the cards evenly */
-    flex-wrap: wrap; /* Allows cards to wrap to the next line on smaller screens */
-    gap: 20px; /* Space between cards */
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    gap: 20px; 
   }
   
-  .card {
-    width: 420px; /* Fixed width for desktop */
-    height: 250px; /* Fixed height */
-    position: relative; /* Position relative for absolute positioning of text */
-    overflow: hidden; /* Ensure content does not overflow */
+  .holidaycard {
+    width: 420px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
   }
   
   .card-image-container {
@@ -45,7 +47,7 @@
     text-align: center;
     padding: 15px;
     border-radius: 8px;
-    width: 80%; /* Adjust width of the content box */
+    width: 80%; 
   }
   
   .card-title {
@@ -56,13 +58,13 @@
   
   @media (max-width: 1024px) {
     .card {
-      width: calc(50% - 20px); /* 2 cards per row on larger tablets */
+      width: calc(50% - 20px); 
     }
   }
   
   @media (max-width: 768px) {
     .card {
-      width: calc(50% - 20px); /* 2 cards per row on smaller tablets */
+      width: calc(50% - 20px); 
     }
   }
   
@@ -72,8 +74,8 @@
     }
   
     .card {
-      width: calc(100% - 20px); /* Full width for mobile devices */
-      height: auto; /* Adjust height to fit content */
+      width: calc(100% - 20px);
+      height: auto;
     }
   
     .card-title {

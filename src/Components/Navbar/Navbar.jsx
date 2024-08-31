@@ -20,7 +20,7 @@ const Navbar = () => {
         <li><a href="#">Plan My Holiday</a></li>
         <li><Link to='Packages'>Packages</Link></li>
         <li><a href="#">Holiday Themes</a></li>
-        <li className="logo"><img src={logo} alt="Logo" style={{height:'70px',width:'90px'}} /></li>
+        <li className="logo"><a href="/virtual-travel"><img src={logo} alt="Logo" style={{height:'55px',width:'70px'}} /></a></li>
         <li><a href="#">Client Review</a></li>
 
         <li>
@@ -30,7 +30,7 @@ const Navbar = () => {
             {isDropdownOpen && (
               <ul className="dropdown">
                 <li className="dropdown-item"><Link to='Goa'>Goa</Link></li>
-                <li className="dropdown-item"><a href="#">Kerela</a></li>
+                <li className="dropdown-item"><Link to='Kerela'>Kerela</Link></li>
                 <li className="dropdown-item"><a href="#">Pondicherry</a></li>
 
               </ul>

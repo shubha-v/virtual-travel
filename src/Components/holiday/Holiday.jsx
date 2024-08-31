@@ -6,22 +6,22 @@ import mountain from '../images/holidaytheme-2.jpg'
 
 const Holiday = () => {
   return (
-    <div className="holiday-cards">
+    <div className="holiday-holidaycards">
       <h2 className="heading">Holiday Themes</h2>
-      <div className="cards">
-        <div className="card">
+      <div className="holidaycards">
+        <div className="holidaycard">
           <img src={beach} alt="Beach" className="card-image" />
           <div className="card-content">
             <h3 className="card-title">Beach</h3>
           </div>
         </div>
-        <div className="card">
+        <div className="holidaycard">
           <img src={adventure} alt="Adventure" className="card-image" />
           <div className="card-content">
             <h3 className="card-title">Adventure</h3>
           </div>
         </div>
-        <div className="card">
+        <div className="holidaycard">
           <img src={mountain} alt="Cultural" className="card-image" />
           <div className="card-content">
             <h3 className="card-title">Mountain</h3>

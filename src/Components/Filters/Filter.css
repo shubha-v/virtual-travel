@@ -1,0 +1,47 @@
+.filters-container {
+    display: flex;
+    padding: 16px;
+    font-family: Georgia, serif;
+    font-size: 0.875rem;
+  }
+  
+  .filters {
+    width: 16%;
+    padding-right: 16px;
+  }
+  
+  .filter-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px; /* Increased margin for better spacing */
+  }
+  
+  .filter-options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .clear-filters {
+    cursor: pointer;
+    font-size: 0.875rem; /* Adjust text size if needed */
+    float: right;
+  }
+  
+  .cards {
+    width: 84%;
+  }
+  
+  .card {
+    max-width: 250px;
+    margin: auto;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+  }
+  .typefilter{
+    display: inline-block;
+    font-size: 0.875rem;
+    font-family: Georgia, serif;
+  }
