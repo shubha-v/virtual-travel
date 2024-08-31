@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './goa.scss';
 import Navbar from '../../Navbar/Navbar';
 import Footer from '../../Footer/Footer';
-import kerela from '../../videos/goa/baga-beach-goa.mp4';
+import goa from '../../videos/goa/baga-beach-goa.mp4';
 import { Typography } from '@mui/material';
 import { TbPlaneInflight } from "react-icons/tb";
 import { FaCarRear } from "react-icons/fa6";
@@ -16,8 +16,8 @@ const Goa = () => {
         <>
             <Navbar />
             <div className="goabanner">
-                <video src={kerela} autoPlay loop muted playsInline className="banner-video"></video>
-                <div class="text">Kerela</div>
+                <video src={goa} autoPlay loop muted playsInline className="banner-video"></video>
+                <div class="text">Goa</div>
             </div>
             <div className="tabs-container">
                 <div className="tabs-wrapper">
