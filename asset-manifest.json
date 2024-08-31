@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/virtual-travel/static/css/main.2c2ff3cc.css",
-    "main.js": "/virtual-travel/static/js/main.2589263a.js",
+    "main.js": "/virtual-travel/static/js/main.af87b715.js",
     "static/media/baga-beach-goa.mp4": "/virtual-travel/static/media/baga-beach-goa.2a92317f66388e7acbeb.mp4",
     "static/media/holidaytheme-2.jpg": "/virtual-travel/static/media/holidaytheme-2.5fb350a2f43670a4f2d2.jpg",
     "static/media/home-banner1.png": "/virtual-travel/static/media/home-banner1.7462b2f9a41be2ed5d78.png",
@@ -12,10 +12,10 @@
     "static/media/destination-3.jpg": "/virtual-travel/static/media/destination-3.1b1eccfbea73613b8de2.jpg",
     "index.html": "/virtual-travel/index.html",
     "main.2c2ff3cc.css.map": "/virtual-travel/static/css/main.2c2ff3cc.css.map",
-    "main.2589263a.js.map": "/virtual-travel/static/js/main.2589263a.js.map"
+    "main.af87b715.js.map": "/virtual-travel/static/js/main.af87b715.js.map"
   },
   "entrypoints": [
     "static/css/main.2c2ff3cc.css",
-    "static/js/main.2589263a.js"
+    "static/js/main.af87b715.js"
   ]
 }
